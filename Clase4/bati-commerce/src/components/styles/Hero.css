@@ -1,0 +1,81 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-position: 67%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero-slide-1 {
+    background-image: url('https://w0.peakpx.com/wallpaper/472/365/HD-wallpaper-batman-justice-league-2017-justice-league-batman-2017-movies-superheroes.jpg');
+  }
+  
+  .hero-container {
+    display: grid;
+    grid-template: 1fr 2fr 1fr / 0.5fr 2fr 0.5fr;
+    height: 100%;
+  }
+  
+  .hero-container__text-box {
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .hero-container__text-box h1 {
+    font-size: 3.4rem;
+    font-weight: 700;
+  }
+  
+  .hero-container__text-box p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 30px auto;
+    max-width: 360px;
+  }
+  
+  .button-primary {
+    background-color: var(--pimary-color);
+    border: none;
+    font-family: var(--mulish-font);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 20px auto;
+    width: 112px;
+    height: 36px;
+    cursor: pointer;
+  }
+  
+  /*Voy a incluir mis mediaqueries acá*/
+  
+  @media only screen and (min-width: 800px) {
+    .hero-container {
+      display: grid;
+      grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
+      height: 100%;
+    }
+  
+    .hero-container__text-box h1 {
+      font-size: 3.8rem;
+      font-weight: 800;
+      margin-top: 30px;
+    }
+  
+    .hero-container__text-box p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      max-width: 420px;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .hero {
+      background-position: center;
+    }
+  
+    .hero-container__text-box h1 {
+      font-size: 4rem;
+    }
+  }
+  

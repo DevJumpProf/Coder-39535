@@ -1,0 +1,24 @@
+:root {
+  /*fonts*/
+  --catamaran-font: 'Catamaran', sans-serif;
+  --mulish-font: 'Mulish', sans-serif;
+  /*colors*/
+  --pimary-color: #f7b035;
+  --secondary-color: #256b3e;
+  --body-bg-color: #1d1d1d;
+  --border-color: #555555;
+  --success-color: #4f8a10;
+  --error-color: #d8000c;
+  --info-color: #31708f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: var(--mulish-font);
+}

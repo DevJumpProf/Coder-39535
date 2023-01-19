@@ -1,0 +1,15 @@
+.item-list-container {
+    width: 100%;
+    min-height: 60vh;
+    padding: 30px;
+    margin-bottom: 60px;
+  
+    background-image: url('https://cdn.shopify.com/s/files/1/0424/8371/2152/files/floral-deco-bgimage_1.png?v=1627728621');
+  }
+  
+  .item-list-container__title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2rem;
+  }
+  
