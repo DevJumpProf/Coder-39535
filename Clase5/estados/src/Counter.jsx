@@ -5,6 +5,7 @@ export const Counter = () =>{
     const[count,setCount]= useState(0)
     return (
         <>
+      
         <Button onClick={()=>setCount(count+1)} size="sm" variant="success">+</Button>{' '}
         <p>Numero: {count}</p>
         <Button onClick={()=>setCount(count-1)} size="sm" variant="success">-</Button>{' '}
