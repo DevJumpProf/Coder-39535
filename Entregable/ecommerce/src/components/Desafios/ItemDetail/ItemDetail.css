@@ -1,0 +1,25 @@
+.detail-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: azure;
+}
+.img-container{
+    display: flex;
+    width: 250px;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.img-container h4, h5, p{
+    margin: 10px 0;
+}
