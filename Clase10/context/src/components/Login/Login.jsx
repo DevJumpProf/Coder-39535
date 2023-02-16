@@ -3,7 +3,7 @@ import {MiContext} from "../../aplicacion/Provider"
 const Login = () =>{
 
 const [state, setState] = MiContext()
-
+console.log(state);
     return(
         
         <>
@@ -15,6 +15,9 @@ const [state, setState] = MiContext()
 }
 
 export default Login
+
+
+
 
 
 

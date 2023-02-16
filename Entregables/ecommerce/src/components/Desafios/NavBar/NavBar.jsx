@@ -18,7 +18,7 @@ export const Navbar = () =>{
                  to="/productos/the_office">The Office</NavLink>
                 <NavLink className={({isActive})=>isActive ? "claseActive": "claseInactive"}
                  to="/productos/dc">DC Comics</NavLink>
-                       <NavLink className={({isActive})=>isActive ? "claseActive": "claseInactive"}
+                <NavLink className={({isActive})=>isActive ? "claseActive": "claseInactive"}
                  to="/productos/seleccion">Seleccion ARG</NavLink>
             </div>
             <div>

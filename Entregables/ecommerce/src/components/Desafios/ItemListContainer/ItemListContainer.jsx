@@ -11,7 +11,7 @@ export const ItemListContainer = ()=>{
 
     const [productos, setProductos] = useState([]);
 
-    const promesa = new Promise((resolve, reject)=>{
+    let promesa = new Promise((resolve, reject)=>{
         setTimeout(() => {
             resolve(arregloProductos);
         }, 2000);
