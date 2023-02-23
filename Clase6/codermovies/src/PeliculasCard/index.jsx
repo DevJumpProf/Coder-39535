@@ -1,3 +1,10 @@
+
+
+
+Buscar en Plataforma Njambre
+
+
+
 import "./PeliculasCard.css"
 export function PeliculasCard ({pelicula}){
 
