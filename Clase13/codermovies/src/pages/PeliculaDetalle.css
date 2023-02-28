@@ -1,0 +1,29 @@
+.contenedorDetalle{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+img:hover{
+    opacity: 50%;
+
+}
+.col{
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.peliculaDetalle{
+ /*    font-family: ; */
+    font-size: 1.5rem;
+ 
+}
+
+.item{
+    margin-top:0;
+}
